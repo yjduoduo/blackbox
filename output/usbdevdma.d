@@ -14,9 +14,14 @@
 ..\output\usbdevdma.o: f:\Keil\ARM\RV31\Inc\stdlib.h
 ..\output\usbdevdma.o: f:\Keil\ARM\RV31\Inc\setjmp.h
 ..\output\usbdevdma.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
-..\output\usbdevdma.o: ..\drivers\usb\usbDevLPC1700\..\.\ZY_CODE\.\Startup\lpc1700.h
-..\output\usbdevdma.o: ..\drivers\usb\usbDevLPC1700\..\.\ZY_CODE\.\Startup\target.h
-..\output\usbdevdma.o: ..\drivers\usb\usbDevLPC1700\..\.\ZY_CODE\.\zy_if\zy_if.h
+..\output\usbdevdma.o: ../include/system\LPC17xx.h
+..\output\usbdevdma.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\output\usbdevdma.o: f:\Keil\ARM\RV31\Inc\stdint.h
+..\output\usbdevdma.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\output\usbdevdma.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\output\usbdevdma.o: ../include/system\system_LPC17xx.h
+..\output\usbdevdma.o: ..\drivers\usb\ZY_CODE\Startup\target.h
+..\output\usbdevdma.o: ..\drivers\usb\ZY_CODE\zy_if\zy_if.h
 ..\output\usbdevdma.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\target_cfg.h
 ..\output\usbdevdma.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\Startup\LPC1700PinCfg.h
 ..\output\usbdevdma.o: f:\Keil\ARM\RV31\Inc\stdio.h

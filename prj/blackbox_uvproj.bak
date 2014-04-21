@@ -348,7 +348,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>../include\;../include/board\;../include/board/lpc1752\;../include/common\;../include/drivers\;../include/system\;../include/board/test\</IncludePath>
+              <IncludePath>../include\;../include/board\;../include/board/lpc1752\;../include/common\;../include/drivers\;../include/system\;../include/board/test\;..\drivers\usb;..\drivers\usb\cfg_file;..\drivers\usb\usbDevLPC1700;..\drivers\usb\ZY_CODE;..\drivers\usb\ZY_CODE\Startup;..\drivers\usb\ZY_CODE\zy_if;..\drivers\usb\cfg_file\zy_if\</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -401,57 +401,187 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\delay\delay.c</FilePath>
+              <FilePath>..\drivers\delay\delay.c</FilePath>
             </File>
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\led\led.c</FilePath>
+              <FilePath>..\drivers\led\led.c</FilePath>
             </File>
             <File>
               <FileName>uart_all.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\serial\uart_all.c</FilePath>
+              <FilePath>..\drivers\serial\uart_all.c</FilePath>
             </File>
             <File>
               <FileName>uart0.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\serial\uart0.c</FilePath>
+              <FilePath>..\drivers\serial\uart0.c</FilePath>
             </File>
             <File>
               <FileName>uart1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\serial\uart1.c</FilePath>
-            </File>
-            <File>
-              <FileName>CTimeDef.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\timer\CTimeDef.c</FilePath>
-            </File>
-            <File>
-              <FileName>timer_all.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\timer\timer_all.c</FilePath>
-            </File>
-            <File>
-              <FileName>irq_timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\timer\irq_timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>w25q256.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\spi\w25q256_ssp\w25q256.c</FilePath>
+              <FilePath>..\drivers\serial\uart1.c</FilePath>
             </File>
             <File>
               <FileName>ops_w25qxx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dirvers\spi\w25q256_ssp\ops_w25qxx.c</FilePath>
+              <FilePath>..\drivers\spi\w25q256_ssp\ops_w25qxx.c</FilePath>
             </File>
             <File>
-              <FileName>utils.c</FileName>
+              <FileName>w25q256.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\common\utils.c</FilePath>
+              <FilePath>..\drivers\spi\w25q256_ssp\w25q256.c</FilePath>
+            </File>
+            <File>
+              <FileName>CTimeDef.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\timer\CTimeDef.c</FilePath>
+            </File>
+            <File>
+              <FileName>irq_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\timer\irq_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer_all.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\timer\timer_all.c</FilePath>
+            </File>
+            <File>
+              <FileName>isp1301.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\isp1301.c</FilePath>
+            </File>
+            <File>
+              <FileName>isp1301.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\isp1301.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevCI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevCI.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevCI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevCI.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevConfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevConfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDescriptor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDescriptor.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDescriptor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDescriptor.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDMA.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDMA.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDMA.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDMA.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDriver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDriver.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevDriver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevDriver.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevHAL.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevHAL.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevHAL.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevHAL.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevProtocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevProtocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbDevProtocol.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\usbDevLPC1700\usbDevProtocol.h</FilePath>
+            </File>
+            <File>
+              <FileName>firmware.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\firmware.h</FilePath>
+            </File>
+            <File>
+              <FileName>zy_if.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\zy_if\zy_if.c</FilePath>
+            </File>
+            <File>
+              <FileName>zy_if.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\zy_if\zy_if.h</FilePath>
+            </File>
+            <File>
+              <FileName>LPC1700PinCfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\Startup\LPC1700PinCfg.c</FilePath>
+            </File>
+            <File>
+              <FileName>target.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\Startup\target.c</FilePath>
+            </File>
+            <File>
+              <FileName>target.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\Startup\target.h</FilePath>
+            </File>
+            <File>
+              <FileName>vector_table.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\ZY_CODE\Startup\vector_table.c</FilePath>
+            </File>
+            <File>
+              <FileName>target_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\cfg_file\target_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>zy_if_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\cfg_file\zy_if\zy_if_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>LPC1700PinCfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\cfg_file\Startup\LPC1700PinCfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>rt_sys_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\usb\cfg_file\Startup\rt_sys_c.c</FilePath>
+            </File>
+            <File>
+              <FileName>vector_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\drivers\usb\cfg_file\Startup\vector_cfg.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -477,6 +607,11 @@
               <FileName>startup_LPC17xx.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\common\system\startup_LPC17xx.s</FilePath>
+            </File>
+            <File>
+              <FileName>utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\common\utils.c</FilePath>
             </File>
           </Files>
         </Group>

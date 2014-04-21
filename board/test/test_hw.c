@@ -82,7 +82,7 @@ void test_write_statusreg(void)
 void flash_total_test(void)
 {
     uint32 id;
-    const uint32 nums=20000;
+    const uint32 nums=20;
     for(id=0;id<nums;id++)
         flash_write_test(id);
 

@@ -15,7 +15,7 @@
 //public function declaration
 EXT_HARDWARE void hardware_init(void);
 
-
-
+EXT_HARDWARE void  usbDeviceDemo (void);
+EXT_HARDWARE void targetInit (void);
 
 #endif // HARDWARE_SETS_H

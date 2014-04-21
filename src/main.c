@@ -15,11 +15,16 @@ void hello_blackbox(void)
 int main(void)
 {
 
+    targetInit();
+
+    usbDeviceDemo();
+
     hardware_init();
     hello_blackbox();
 
     testall();
 		
+
 
     while(1)
     {

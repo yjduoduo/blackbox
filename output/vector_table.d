@@ -5,9 +5,14 @@
 ..\output\vector_table.o: f:\Keil\ARM\RV31\Inc\stdlib.h
 ..\output\vector_table.o: f:\Keil\ARM\RV31\Inc\setjmp.h
 ..\output\vector_table.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
-..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\lpc1700.h
-..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\target.h
-..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+..\output\vector_table.o: ../include/system\LPC17xx.h
+..\output\vector_table.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\output\vector_table.o: f:\Keil\ARM\RV31\Inc\stdint.h
+..\output\vector_table.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\output\vector_table.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\output\vector_table.o: ../include/system\system_LPC17xx.h
+..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\target.h
+..\output\vector_table.o: ..\drivers\usb\ZY_CODE\zy_if\zy_if.h
 ..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\cfg_file\target_cfg.h
 ..\output\vector_table.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
 ..\output\vector_table.o: f:\Keil\ARM\RV31\Inc\stdio.h

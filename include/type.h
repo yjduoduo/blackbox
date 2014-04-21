@@ -27,7 +27,7 @@
 typedef unsigned char  BYTE;
 typedef unsigned short WORD;
 typedef unsigned long  DWORD;
-typedef unsigned int   BOOL;
+typedef unsigned char   BOOL;
 
 typedef char               S8;
 typedef unsigned char      U8;
@@ -38,11 +38,11 @@ typedef unsigned int       U32;
 typedef long long          S64;
 typedef unsigned long long U64;
 typedef unsigned char      BIT;
-typedef unsigned int       BOOL;
+typedef unsigned char       BOOL;
 
 
 typedef unsigned char     INT8U;
-typedef unsigned int      INT32U;
+typedef unsigned long      INT32U;
 
 
 //config.h before

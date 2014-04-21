@@ -7,7 +7,7 @@
 ** File Name:           config.h
 ** Last modified Date:  2009-05-15
 ** Last Version:        V1.01
-** Descriptions:        User Configurable File
+** Descriptins:        User Configurable File
 **
 **--------------------------------------------------------------------------------------------------------
 ** Created By:          LinEnqiang
