@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "..\output\main.o" "..\output\delay.o" "..\output\led.o" "..\output\uart_all.o" "..\output\uart0.o" "..\output\uart1.o" "..\output\ctimedef.o" "..\output\timer_all.o" "..\output\irq_timer.o" "..\output\w25q256.o" "..\output\usb_driver.o" "..\output\usb_hw.o" "..\output\ops_w25qxx.o" "..\output\utils.o" "..\output\lcd_printf.o" "..\output\system_lpc17xx.o" "..\output\core_cm3.o" "..\output\startup_lpc17xx.o" "..\output\hardware_sets.o" "..\output\irq_manage.o" "..\output\test_hw.o" --strict --scatter "..\output\blackbox.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blackbox.map" -o "..\output\blackbox.axf"

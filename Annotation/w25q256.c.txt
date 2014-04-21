@@ -1,0 +1,52 @@
+//E:/lianhe/blackbox_1.1/dirvers/spi/w25q256_ssp/w25q256.c
+//2014/03/26 17:17:59
+/*****************************************************************************
+*author:
+*time  :
+*****************************************************************************/
+void spi_init(uint32 port);
+uint8 spi_send(uint8 tdata);
+uint8 spi_recv(void);
+void w25qxx_wait_busy(void);
+void w25xx_send_1cmd(uint8 cmd);
+void w25qxx_write_enable(void);
+void w25qxx_write_disable(void);
+void w25qxx_SR_write_enable(void);
+static void w25xx_in_qpi_mode(void);
+static void w25xx_in_4byte(void);
+static void w25xx_out_4byte(void);
+void get_all_status_reg(void);
+//十进制打印成二进制
+void show_decTobin(uint8 rdata);
+void w25qxx_read_id_3(uint8 *buffer);
+void w25qxx_read_unique_id_3(uint8 *buffer);
+int32 judge_erase_addr(uint32 byte_addr);
+void w25qxx_sector_write_3(uint32 sector, uint8 * dstbuf, uint8 sector_number);
+void w25qxx_sector_read_3(uint32 sector, uint8 * buffer, uint8 sector_number);
+void w25qxx_sector_erase_3(uint32 sector);
+void w25qxx_read_id_4(uint8 *buffer);
+void w25qxx_read_unique_id_4(uint8 *buffer);
+void w25qxx_sector_write_4(uint32 sector, uint8 * dstbuf, uint8 sector_number);
+void w25qxx_sector_read_4(uint32 sector, uint8 * buffer, uint8 sector_number);
+void w25qxx_sector_erase_4(uint32 sector);
+uint8 w25qxx_read_status_reg1(uint8 yesflag);
+uint8 w25qxx_read_status_reg2(void);
+uint8 w25qxx_read_status_reg3(void);
+void w25qxx_write_status_reg1(uint8 wdata);
+void w25qxx_write_status_reg2(uint8 wdata);
+void w25qxx_write_status_reg3(uint8 wdata);
+void set_SR_CMP(void);
+void clr_SR_CMP(void);
+void set_SR_WPS(void);
+void clr_SR_WPS(void);
+void w25qxx_chip_erase(void);
+uint16 w25qxx_get_sector_num(void);
+void wx_read_jedec(void);
+static void SPI_WR_HIGH(void);
+static void SPI_WR_LOW(void);
+static void SPI_HOLD_HIGH(void);
+static void SPI_HOLD_LOW(void);
+void SPI_CS_HIGH(void);
+void SPI_CS_LOW(void);
+void EnterNoInt(void);
+void ExitNoInt(void);

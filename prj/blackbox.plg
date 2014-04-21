@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\1ºÚÏ»×Ó\blackbox_1.0\prj\blackbox.uvproj
+Project File Date:  03/21/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+linking...
+..\output\blackbox.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+..\output\blackbox.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+Target not created

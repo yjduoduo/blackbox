@@ -1,0 +1,39 @@
+*** Creating Trace Output File '..\output\blackbox.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\led.o"'
+### List of Objects: adding '"..\output\uart_all.o"'
+### List of Objects: adding '"..\output\uart0.o"'
+### List of Objects: adding '"..\output\uart1.o"'
+### List of Objects: adding '"..\output\ctimedef.o"'
+### List of Objects: adding '"..\output\timer_all.o"'
+### List of Objects: adding '"..\output\irq_timer.o"'
+### List of Objects: adding '"..\output\w25q256.o"'
+### List of Objects: adding '"..\output\usb_driver.o"'
+### List of Objects: adding '"..\output\usb_hw.o"'
+### List of Objects: adding '"..\output\ops_w25qxx.o"'
+### List of Objects: adding '"..\output\utils.o"'
+### List of Objects: adding '"..\output\lcd_printf.o"'
+### List of Objects: adding '"..\output\system_lpc17xx.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\startup_lpc17xx.o"'
+### List of Objects: adding '"..\output\hardware_sets.o"'
+### List of Objects: adding '"..\output\irq_manage.o"'
+### List of Objects: adding '"..\output\test_hw.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\main.o" "..\output\delay.o" "..\output\led.o" "..\output\uart_all.o" "..\output\uart0.o" "..\output\uart1.o" "..\output\ctimedef.o" "..\output\timer_all.o" "..\output\irq_timer.o" "..\output\w25q256.o" "..\output\usb_driver.o" "..\output\usb_hw.o" "..\output\ops_w25qxx.o" "..\output\utils.o" "..\output\lcd_printf.o" "..\output\system_lpc17xx.o" "..\output\core_cm3.o" "..\output\startup_lpc17xx.o" "..\output\hardware_sets.o" "..\output\irq_manage.o" "..\output\test_hw.o" --strict --scatter "..\output\blackbox.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blackbox.map" -o "..\output\blackbox.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\output\blackbox.axf'
+### ADS-LD Command File: '..\output\blackbox.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\output\blackbox.lnp', Handle=0x000001D4
+### Writing '.lnp' file
+### ADS-LD Command file '..\output\blackbox.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
