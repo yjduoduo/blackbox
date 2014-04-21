@@ -1,4 +1,4 @@
-..\output\irq_timer.o: ..\dirvers\timer\irq_timer.c
+..\output\irq_timer.o: ..\drivers\timer\irq_timer.c
 ..\output\irq_timer.o: ../include/drivers\irq_timer.h
 ..\output\irq_timer.o: ../include\type.h
 ..\output\irq_timer.o: ../include/system\LPC17xx.h

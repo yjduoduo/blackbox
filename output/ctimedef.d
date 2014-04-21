@@ -1,4 +1,4 @@
-..\output\ctimedef.o: ..\dirvers\timer\CTimeDef.c
+..\output\ctimedef.o: ..\drivers\timer\CTimeDef.c
 ..\output\ctimedef.o: ../include/drivers\CTimeDef.h
 ..\output\ctimedef.o: ../include\includeall.h
 ..\output\ctimedef.o: f:\Keil\ARM\RV31\Inc\stdio.h

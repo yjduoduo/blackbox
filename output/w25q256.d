@@ -1,4 +1,4 @@
-..\output\w25q256.o: ..\dirvers\spi\w25q256_ssp\w25q256.c
+..\output\w25q256.o: ..\drivers\spi\w25q256_ssp\w25q256.c
 ..\output\w25q256.o: ../include\includeall.h
 ..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdio.h
 ..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdlib.h

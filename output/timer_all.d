@@ -1,4 +1,4 @@
-..\output\timer_all.o: ..\dirvers\timer\timer_all.c
+..\output\timer_all.o: ..\drivers\timer\timer_all.c
 ..\output\timer_all.o: ../include/drivers\timer_all.h
 ..\output\timer_all.o: ../include\includeall.h
 ..\output\timer_all.o: f:\Keil\ARM\RV31\Inc\stdio.h

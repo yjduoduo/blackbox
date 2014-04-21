@@ -23,5 +23,4 @@
 ..\output\hardware_sets.o: ../include/drivers\led.h
 ..\output\hardware_sets.o: ../include/drivers\w25q256.h
 ..\output\hardware_sets.o: ../include/drivers\CTimeDef.h
-..\output\hardware_sets.o: ../include/drivers\usb_driver.h
 ..\output\hardware_sets.o: ../include/drivers\ops_w25qxx.h

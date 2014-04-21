@@ -1,0 +1,13 @@
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\LPC1700PinCfg.c
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\config.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\firmware.h
+..\output\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\ctype.h
+..\output\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+..\output\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\setjmp.h
+..\output\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\lpc1700.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\target.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\cfg_file\target_cfg.h
+..\output\lpc1700pincfg.o: ..\drivers\usb\ZY_CODE\Startup\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
+..\output\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\stdio.h

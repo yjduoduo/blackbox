@@ -1,4 +1,4 @@
-..\output\ops_w25qxx.o: ..\dirvers\spi\w25q256_ssp\ops_w25qxx.c
+..\output\ops_w25qxx.o: ..\drivers\spi\w25q256_ssp\ops_w25qxx.c
 ..\output\ops_w25qxx.o: ../include\includeall.h
 ..\output\ops_w25qxx.o: f:\Keil\ARM\RV31\Inc\stdio.h
 ..\output\ops_w25qxx.o: f:\Keil\ARM\RV31\Inc\stdlib.h

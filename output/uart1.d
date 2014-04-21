@@ -1,4 +1,4 @@
-..\output\uart1.o: ..\dirvers\serial\uart1.c
+..\output\uart1.o: ..\drivers\serial\uart1.c
 ..\output\uart1.o: ../include/system\lpc17xx.h
 ..\output\uart1.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
 ..\output\uart1.o: f:\Keil\ARM\RV31\Inc\stdint.h

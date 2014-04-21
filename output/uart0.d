@@ -1,4 +1,4 @@
-..\output\uart0.o: ..\dirvers\serial\uart0.c
+..\output\uart0.o: ..\drivers\serial\uart0.c
 ..\output\uart0.o: ../include/drivers\uart0.h
 ..\output\uart0.o: ../include\includeall.h
 ..\output\uart0.o: f:\Keil\ARM\RV31\Inc\stdio.h

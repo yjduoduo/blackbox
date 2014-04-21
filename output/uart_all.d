@@ -1,4 +1,4 @@
-..\output\uart_all.o: ..\dirvers\serial\uart_all.c
+..\output\uart_all.o: ..\drivers\serial\uart_all.c
 ..\output\uart_all.o: ../include/drivers\uart_all.h
 ..\output\uart_all.o: ../include/drivers\uart0.h
 ..\output\uart_all.o: ../include\includeall.h

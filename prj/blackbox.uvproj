@@ -399,11 +399,6 @@
           <GroupName>driver</GroupName>
           <Files>
             <File>
-              <FileName>delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\delay\delay.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dirvers\led\led.c</FilePath>
@@ -444,16 +439,6 @@
               <FilePath>..\dirvers\spi\w25q256_ssp\w25q256.c</FilePath>
             </File>
             <File>
-              <FileName>usb_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\usb\usb_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>usb_hw.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\usb\usb_hw.c</FilePath>
-            </File>
-            <File>
               <FileName>ops_w25qxx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dirvers\spi\w25q256_ssp\ops_w25qxx.c</FilePath>
@@ -462,6 +447,11 @@
               <FileName>utils.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\common\utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\delay\delay.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -592,16 +582,6 @@
               <FileName>irq_manage.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\include\board\lpc1752\irq_manage.h</FilePath>
-            </File>
-            <File>
-              <FileName>usb_driver.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\include\drivers\usb_driver.h</FilePath>
-            </File>
-            <File>
-              <FileName>usb_hw.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\include\drivers\usb_hw.h</FilePath>
             </File>
             <File>
               <FileName>usbcfg.h</FileName>

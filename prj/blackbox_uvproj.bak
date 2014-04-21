@@ -136,7 +136,6 @@
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
             <RestoreFunctions>0</RestoreFunctions>
             <RestoreToolbox>1</RestoreToolbox>
-            <RestoreTracepoints>0</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>5</TargetSelection>
@@ -345,7 +344,6 @@
             <Rwpi>0</Rwpi>
             <wLevel>0</wLevel>
             <uThumb>0</uThumb>
-            <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -361,7 +359,6 @@
             <SplitLS>0</SplitLS>
             <SwStkChk>0</SwStkChk>
             <NoWarn>0</NoWarn>
-            <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -445,16 +442,6 @@
               <FileName>w25q256.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dirvers\spi\w25q256_ssp\w25q256.c</FilePath>
-            </File>
-            <File>
-              <FileName>usb_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\usb\usb_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>usb_hw.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dirvers\usb\usb_hw.c</FilePath>
             </File>
             <File>
               <FileName>ops_w25qxx.c</FileName>
@@ -595,16 +582,6 @@
               <FileName>irq_manage.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\include\board\lpc1752\irq_manage.h</FilePath>
-            </File>
-            <File>
-              <FileName>usb_driver.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\include\drivers\usb_driver.h</FilePath>
-            </File>
-            <File>
-              <FileName>usb_hw.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\include\drivers\usb_hw.h</FilePath>
             </File>
             <File>
               <FileName>usbcfg.h</FileName>

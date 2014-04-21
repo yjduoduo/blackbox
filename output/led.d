@@ -1,4 +1,4 @@
-..\output\led.o: ..\dirvers\led\led.c
+..\output\led.o: ..\drivers\led\led.c
 ..\output\led.o: ../include/drivers\led.h
 ..\output\led.o: ../include\includeall.h
 ..\output\led.o: f:\Keil\ARM\RV31\Inc\stdio.h

@@ -1,4 +1,4 @@
-..\output\delay.o: ..\dirvers\delay\delay.c
+..\output\delay.o: ..\drivers\delay\delay.c
 ..\output\delay.o: ../include/drivers\delay.h
 ..\output\delay.o: ../include\includeall.h
 ..\output\delay.o: f:\Keil\ARM\RV31\Inc\stdio.h

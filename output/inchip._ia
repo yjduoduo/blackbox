@@ -1,0 +1,1 @@
+--cpu Cortex-M3 -g --apcs=interwork -I f:\Keil\ARM\RV31\Inc -I f:\Keil\ARM\CMSIS\Include -I f:\Keil\ARM\Inc\NXP\LPC17xx --list ".\InChip.lst" --xref -o "..\output\InChip.o" --depend "..\output\InChip.d" "..\drivers\usb\cfg_file\Startup\InChip.sct"

@@ -7,7 +7,6 @@
 #include "string.h"
 #include "CTimeDef.h"
 #include "timer_all.h"
-#include "usb_driver.h"
 #include "ops_w25qxx.h"
 
 void ops_init(void)
@@ -23,7 +22,7 @@ void hardware_init(void)
     uart0_init(UART0_BPS);
     spi_init(0);
     led_init();
-    USB_Init();
+//     USB_Init();
     timer_all_init(0,Get_Timer_1s());
 
     Debug("\n~~~~~~~~~~~~~~~~~~~~~~\n");
