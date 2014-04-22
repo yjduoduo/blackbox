@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\out\Cortex-M3 Execute for lpc1700.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\out\main.o"'
+### List of Objects: adding '".\out\lpc1700pincfg.o"'
+### List of Objects: adding '".\out\target.o"'
+### List of Objects: adding '".\out\vector_table.o"'
+### List of Objects: adding '".\out\zy_if.o"'
+### List of Objects: adding '".\out\rt_sys_s.o"'
+### List of Objects: adding '".\out\rt_sys_c.o"'
+### List of Objects: adding '".\out\usbdevci.o"'
+### List of Objects: adding '".\out\usbdevdriver.o"'
+### List of Objects: adding '".\out\usbdevhal.o"'
+### List of Objects: adding '".\out\usbdevdescriptor.o"'
+### List of Objects: adding '".\out\usbdevprotocol.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\out\main.o" ".\out\lpc1700pincfg.o" ".\out\target.o" ".\out\vector_table.o" ".\out\zy_if.o" ".\out\rt_sys_s.o" ".\out\rt_sys_c.o" ".\out\usbdevci.o" ".\out\usbdevdriver.o" ".\out\usbdevhal.o" ".\out\usbdevdescriptor.o" ".\out\usbdevprotocol.o" --scatter ".\cfg_file\Startup\InChip.sct" 
+--entry __main --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Cortex-M3 Execute for lpc1700.map" -o ".\out\Cortex-M3 Execute for lpc1700.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\out\Cortex-M3 Execute for lpc1700.axf'
+### ADS-LD Command File: '.\out\Cortex-M3 Execute for lpc1700.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\out\Cortex-M3 Execute for lpc1700.lnp', Handle=0x000002E4
+### Writing '.lnp' file
+### ADS-LD Command file '.\out\Cortex-M3 Execute for lpc1700.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\1blackbox\USB Device\usbDevSimple\usbDevSimpleDemo\Cortex-M3 Execute for lpc1700.uvproj
+Project File Date:  04/21/2014
+
+<h2>Output:</h2>
+Build target 'DebugInFlash'
+linking...
+Program Size: Code=6166 RO-data=314 RW-data=72 ZI-data=256  
+FromELF: creating hex file...
+".\out\Cortex-M3 Execute for lpc1700.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\1blackbox\\USB Device\\usbDevSimple\\usbDevSimpleDemo\\out\\Cortex-M3 Execute for lpc1700.AXF" 
+* JLink Info: Device "LPC1752" selected (64 KB flash, 16 KB RAM).
+Set JLink Project File to "E:\1blackbox\USB Device\usbDevSimple\usbDevSimpleDemo\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.74a, compiled Jul 23 2013 08:47:58
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: LPC1752
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

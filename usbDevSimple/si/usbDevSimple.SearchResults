@@ -1,0 +1,6 @@
+---- usbDevGetVer Matches (5 in 3 files) ----
+Cortex-M3 Execute for lpc1700.htm (usbdevsimpledemo\out):<P><STRONG><a name="[a2]"></a>usbDevGetVer</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbdevdriver.o(.text), UNUSED)
+usbDevDriver.c (usbdevsimpledemo\usbdevlpc1700):** Function name:       usbDevGetVer
+usbDevDriver.c (usbdevsimpledemo\usbdevlpc1700):UINT16 usbDevGetVer(void)
+usbDevDriver.h (usbdevsimpledemo\usbdevlpc1700):** Function name:       usbDevGetVer
+usbDevDriver.h (usbdevsimpledemo\usbdevlpc1700):extern UINT16 usbDevGetVer(void);

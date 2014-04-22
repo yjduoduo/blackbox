@@ -1,0 +1,13 @@
+.\out\target.o: ZY_CODE\Startup\target.c
+.\out\target.o: ZY_CODE\Startup\..\..\config.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\ZY_CODE\firmware.h
+.\out\target.o: f:\Keil\ARM\RV31\Inc\ctype.h
+.\out\target.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+.\out\target.o: f:\Keil\ARM\RV31\Inc\setjmp.h
+.\out\target.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\lpc1700.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\target.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\cfg_file\target_cfg.h
+.\out\target.o: ZY_CODE\Startup\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
+.\out\target.o: f:\Keil\ARM\RV31\Inc\stdio.h

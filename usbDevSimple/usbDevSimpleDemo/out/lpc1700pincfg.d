@@ -1,0 +1,13 @@
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\LPC1700PinCfg.c
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\config.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\ZY_CODE\firmware.h
+.\out\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\ctype.h
+.\out\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+.\out\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\setjmp.h
+.\out\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\lpc1700.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\Startup\target.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\cfg_file\target_cfg.h
+.\out\lpc1700pincfg.o: ZY_CODE\Startup\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
+.\out\lpc1700pincfg.o: f:\Keil\ARM\RV31\Inc\stdio.h

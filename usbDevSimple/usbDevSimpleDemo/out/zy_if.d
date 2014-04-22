@@ -1,0 +1,15 @@
+.\out\zy_if.o: ZY_CODE\zy_if\zy_if.c
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\config.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\ZY_CODE\firmware.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\ctype.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\setjmp.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\ZY_CODE\.\Startup\lpc1700.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\ZY_CODE\.\Startup\target.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\cfg_file\target_cfg.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\stdio.h
+.\out\zy_if.o: ZY_CODE\zy_if\..\..\cfg_file\zy_if\zy_if_cfg.h
+.\out\zy_if.o: f:\Keil\ARM\RV31\Inc\string.h

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PC_Simple - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PC_Simple.res" /d "_DEBUG" /d "_AFXDLL" "D:\LPC1700_USB\device\usbDevSimple\usbDevSimplePC\PC_Simple.rc"" 
+Creating temporary file "C:\DOCUME~1\LIUWEI~1\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PC_Simple.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LPC1700_USB\device\usbDevSimple\usbDevSimplePC\PC_Simple.cpp"
+"D:\LPC1700_USB\device\usbDevSimple\usbDevSimplePC\PC_SimpleDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUWEI~1\LOCALS~1\Temp\RSP11F.tmp" 
+Creating temporary file "C:\DOCUME~1\LIUWEI~1\LOCALS~1\Temp\RSP120.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PC_Simple.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LPC1700_USB\device\usbDevSimple\usbDevSimplePC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUWEI~1\LOCALS~1\Temp\RSP120.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/usbDevSimple.pdb" /debug /machine:I386 /out:"Debug/usbDevSimple.exe" /pdbtype:sept  .\Debug\PC_Simple.obj .\Debug\PC_SimpleDlg.obj .\Debug\StdAfx.obj .\Debug\PC_Simple.res .\zyUSBDev.lib "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PC_Simple.cpp
+PC_SimpleDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+usbDevSimple.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

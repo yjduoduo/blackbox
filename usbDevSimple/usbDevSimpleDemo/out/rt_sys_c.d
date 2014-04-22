@@ -1,0 +1,15 @@
+.\out\rt_sys_c.o: cfg_file\Startup\rt_sys_c.c
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\config.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\ZY_CODE\firmware.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\ctype.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\setjmp.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\rt_misc.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\ZY_CODE\.\Startup\lpc1700.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\ZY_CODE\.\Startup\target.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\ZY_CODE\.\zy_if\zy_if.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\cfg_file\target_cfg.h
+.\out\rt_sys_c.o: cfg_file\Startup\..\..\.\cfg_file\Startup\LPC1700PinCfg.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\stdio.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\rt_sys.h
+.\out\rt_sys_c.o: f:\Keil\ARM\RV31\Inc\time.h

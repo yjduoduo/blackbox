@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\out\main.o" ".\out\lpc1700pincfg.o" ".\out\target.o" ".\out\vector_table.o" ".\out\zy_if.o" ".\out\rt_sys_s.o" ".\out\rt_sys_c.o" ".\out\usbdevci.o" ".\out\usbdevdriver.o" ".\out\usbdevhal.o" ".\out\usbdevdescriptor.o" ".\out\usbdevprotocol.o" --scatter ".\cfg_file\Startup\InChip.sct" 
+--entry __main --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Cortex-M3 Execute for lpc1700.map" -o ".\out\Cortex-M3 Execute for lpc1700.axf"
