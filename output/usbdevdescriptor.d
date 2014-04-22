@@ -1,15 +1,14 @@
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevDescriptor.c
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevConfig.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbReg.h
-..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\isp1301.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevHAL.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevCI.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevDescriptor.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevProtocol.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevDriver.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\usbDevDMA.h
-..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\..\config.h
-..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\..\.\ZY_CODE\firmware.h
+..\output\usbdevdescriptor.o: ..\drivers\usb\config.h
+..\output\usbdevdescriptor.o: ..\drivers\usb\.\ZY_CODE\firmware.h
 ..\output\usbdevdescriptor.o: f:\Keil\ARM\RV31\Inc\ctype.h
 ..\output\usbdevdescriptor.o: f:\Keil\ARM\RV31\Inc\stdlib.h
 ..\output\usbdevdescriptor.o: f:\Keil\ARM\RV31\Inc\setjmp.h
@@ -22,6 +21,6 @@
 ..\output\usbdevdescriptor.o: ../include/system\system_LPC17xx.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\ZY_CODE\Startup\target.h
 ..\output\usbdevdescriptor.o: ..\drivers\usb\ZY_CODE\zy_if\zy_if.h
-..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\target_cfg.h
-..\output\usbdevdescriptor.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\Startup\LPC1700PinCfg.h
+..\output\usbdevdescriptor.o: ..\drivers\usb\.\cfg_file\target_cfg.h
+..\output\usbdevdescriptor.o: ..\drivers\usb\.\cfg_file\Startup\LPC1700PinCfg.h
 ..\output\usbdevdescriptor.o: f:\Keil\ARM\RV31\Inc\stdio.h

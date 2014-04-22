@@ -73,7 +73,6 @@ typedef double                  FP64;                                   /*  Ë«¾«
 //#include "intrinsics.h"
 
 #include "usbReg.h"
-#include "isp1301.h"
 #include "usbDevHAL.h"
 #include "usbDevCI.h"
 #include "usbDevDescriptor.h"
@@ -81,7 +80,7 @@ typedef double                  FP64;                                   /*  Ë«¾«
 #include "usbDevDriver.h"
 #include "usbDevDMA.h"
 
-#include "..\config.h"
+#include "config.h"
 
 #ifdef __cplusplus
     }

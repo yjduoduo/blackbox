@@ -1,15 +1,14 @@
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevProtocol.c
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevConfig.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbReg.h
-..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\isp1301.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevHAL.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevCI.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevDescriptor.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevProtocol.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevDriver.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\usbDevDMA.h
-..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\..\config.h
-..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\..\.\ZY_CODE\firmware.h
+..\output\usbdevprotocol.o: ..\drivers\usb\config.h
+..\output\usbdevprotocol.o: ..\drivers\usb\.\ZY_CODE\firmware.h
 ..\output\usbdevprotocol.o: f:\Keil\ARM\RV31\Inc\ctype.h
 ..\output\usbdevprotocol.o: f:\Keil\ARM\RV31\Inc\stdlib.h
 ..\output\usbdevprotocol.o: f:\Keil\ARM\RV31\Inc\setjmp.h
@@ -22,6 +21,6 @@
 ..\output\usbdevprotocol.o: ../include/system\system_LPC17xx.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\ZY_CODE\Startup\target.h
 ..\output\usbdevprotocol.o: ..\drivers\usb\ZY_CODE\zy_if\zy_if.h
-..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\target_cfg.h
-..\output\usbdevprotocol.o: ..\drivers\usb\usbDevLPC1700\..\.\cfg_file\Startup\LPC1700PinCfg.h
+..\output\usbdevprotocol.o: ..\drivers\usb\.\cfg_file\target_cfg.h
+..\output\usbdevprotocol.o: ..\drivers\usb\.\cfg_file\Startup\LPC1700PinCfg.h
 ..\output\usbdevprotocol.o: f:\Keil\ARM\RV31\Inc\stdio.h
