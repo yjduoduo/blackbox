@@ -26,27 +26,27 @@ void USB_Init(void)
 *********************************************************************************************************/
 void  usbDeviceDemo (void)
 {
-    Debug("usb init!!!\n");
-    zyIsrSet(NVIC_USB, (unsigned long)usbDevException, PRIO_EIGHT);     /* 设置外部中断优先级并使能     */
+//     Debug("usb init!!!\n");
+//     zyIsrSet(NVIC_USB, (unsigned long)usbDevException, PRIO_EIGHT);     /* 设置外部中断优先级并使能     */
 
-    if (0 != usbDevInit()) {                                            /* 初始化USB控制器              */
-        while(1);                                                       /* 初始化失败，程序停止执行     */
-    }
+//     if (0 != usbDevInit()) {                                            /* 初始化USB控制器              */
+//         while(1);                                                       /* 初始化失败，程序停止执行     */
+//     }
 
-    while(1) {
+//     while(1) {
 
-        usbDevServe();                                                  /* 处理USB事件                  */
+//         usbDevServe();                                                  /* 处理USB事件                  */
 
-        if (bEPPflags.bits.configuration == 1) {                        /* USB Device配置完成           */
+//         if (bEPPflags.bits.configuration == 1) {                        /* USB Device配置完成           */
 
-            if (bEPPflags.bits.ep1_rxdone == 1) {                       /* 逻辑端点1收到数据            */
-                zyIrqDisable();
-                bEPPflags.bits.ep1_rxdone = 0;                          /* 清除端点1收到数据标志        */
-                usbDevWriteEndpoint(3, GenEpBuf, 10);                   /* 发送10个字节到PC             */
-                zyIrqEnable();
-            }
-        }
-    }
+//             if (bEPPflags.bits.ep1_rxdone == 1) {                       /* 逻辑端点1收到数据            */
+//                 zyIrqDisable();
+//                 bEPPflags.bits.ep1_rxdone = 0;                          /* 清除端点1收到数据标志        */
+//                 usbDevWriteEndpoint(3, GenEpBuf, 10);                   /* 发送10个字节到PC             */
+//                 zyIrqEnable();
+//             }
+//         }
+//     }
 }
 
 

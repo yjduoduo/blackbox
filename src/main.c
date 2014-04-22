@@ -15,9 +15,9 @@ void hello_blackbox(void)
 int main(void)
 {
 
-    targetInit();
+//     targetInit();
 
-    usbDeviceDemo();
+//     usbDeviceDemo();
 
     hardware_init();
     hello_blackbox();
