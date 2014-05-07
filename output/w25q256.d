@@ -1,0 +1,17 @@
+..\output\w25q256.o: ..\dirvers\spi\w25q256\w25q256.c
+..\output\w25q256.o: ..\include\includeall.h
+..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdio.h
+..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+..\output\w25q256.o: ..\include\type.h
+..\output\w25q256.o: ..\include\system\LPC17xx.h
+..\output\w25q256.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\output\w25q256.o: f:\Keil\ARM\RV31\Inc\stdint.h
+..\output\w25q256.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\output\w25q256.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\output\w25q256.o: ..\include\system\system_LPC17xx.h
+..\output\w25q256.o: ..\include\common\lcd_printf.h
+..\output\w25q256.o: ..\include\drivers\uart0.h
+..\output\w25q256.o: ..\include\includeall.h
+..\output\w25q256.o: ..\include\drivers\delay.h
+..\output\w25q256.o: ..\include\drivers\w25q256.h

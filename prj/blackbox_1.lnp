@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "lcd_printf.o" "system_lpc17xx.o" "delay.o" "led.o" "uart_all.o" "uart0.o" "uart1.o" "w25q256.o" "main.o" "hardware_sets.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blackbox_1.map" -o blackbox_1.0

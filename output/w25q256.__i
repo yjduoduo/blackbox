@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\include -I..\include\board -I..\include\common -I..\include\drivers -I..\include\system -I..\include\board\lpc1752 -I f:\Keil\ARM\RV31\Inc -I f:\Keil\ARM\CMSIS\Include -I f:\Keil\ARM\Inc\NXP\LPC17xx -o "..\output\w25q256.o" --omf_browse "..\output\w25q256.crf" --depend "..\output\w25q256.d" "..\dirvers\spi\w25q256\w25q256.c"

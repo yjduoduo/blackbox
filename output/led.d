@@ -1,0 +1,17 @@
+..\output\led.o: ..\dirvers\led\led.c
+..\output\led.o: ..\include\drivers\led.h
+..\output\led.o: ..\include\includeall.h
+..\output\led.o: f:\Keil\ARM\RV31\Inc\stdio.h
+..\output\led.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+..\output\led.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+..\output\led.o: ..\include\type.h
+..\output\led.o: ..\include\system\LPC17xx.h
+..\output\led.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\output\led.o: f:\Keil\ARM\RV31\Inc\stdint.h
+..\output\led.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\output\led.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\output\led.o: ..\include\system\system_LPC17xx.h
+..\output\led.o: ..\include\common\lcd_printf.h
+..\output\led.o: ..\include\drivers\uart0.h
+..\output\led.o: ..\include\includeall.h
+..\output\led.o: ..\include\drivers\delay.h

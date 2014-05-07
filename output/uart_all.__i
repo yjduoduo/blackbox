@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\include -I..\include\board -I..\include\common -I..\include\drivers -I..\include\system -I..\include\board\lpc1752 -I f:\Keil\ARM\RV31\Inc -I f:\Keil\ARM\CMSIS\Include -I f:\Keil\ARM\Inc\NXP\LPC17xx -o "..\output\uart_all.o" --omf_browse "..\output\uart_all.crf" --depend "..\output\uart_all.d" "..\dirvers\serial\uart_all.c"

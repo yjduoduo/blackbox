@@ -1,0 +1,3 @@
+--cpu Cortex-M3 "..\output\startup_lpc17xx.o" "..\output\lcd_printf.o" "..\output\system_lpc17xx.o" "..\output\delay.o" "..\output\led.o" "..\output\uart_all.o" "..\output\uart0.o" "..\output\uart1.o" "..\output\w25q256.o" "..\output\main.o" "..\output\hardware_sets.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blackbox_1.map" -o "..\output\blackbox_1.0.axf"

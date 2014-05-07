@@ -1,0 +1,17 @@
+..\output\uart1.o: ..\dirvers\serial\uart1.c
+..\output\uart1.o: ..\include\system\lpc17xx.h
+..\output\uart1.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\output\uart1.o: f:\Keil\ARM\RV31\Inc\stdint.h
+..\output\uart1.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\output\uart1.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\output\uart1.o: ..\include\system\system_LPC17xx.h
+..\output\uart1.o: ..\include\type.h
+..\output\uart1.o: ..\include\drivers\uart1.h
+..\output\uart1.o: ..\include\includeall.h
+..\output\uart1.o: f:\Keil\ARM\RV31\Inc\stdio.h
+..\output\uart1.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+..\output\uart1.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+..\output\uart1.o: ..\include\common\lcd_printf.h
+..\output\uart1.o: ..\include\drivers\uart0.h
+..\output\uart1.o: ..\include\includeall.h
+..\output\uart1.o: ..\include\drivers\delay.h
