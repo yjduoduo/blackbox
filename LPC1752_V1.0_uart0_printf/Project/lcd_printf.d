@@ -1,0 +1,17 @@
+lcd_printf.o: ..\common\printf\lcd_printf.c
+lcd_printf.o: ..\include\common\lcd_printf.h
+lcd_printf.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+lcd_printf.o: f:\Keil\ARM\RV31\Inc\stdio.h
+lcd_printf.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+lcd_printf.o: f:\Keil\ARM\RV31\Inc\string.h
+lcd_printf.o: ..\include\drivers\uart0.h
+lcd_printf.o: ..\include\includeall.h
+lcd_printf.o: ..\include\type.h
+lcd_printf.o: ..\include\system\LPC17xx.h
+lcd_printf.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+lcd_printf.o: f:\Keil\ARM\RV31\Inc\stdint.h
+lcd_printf.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+lcd_printf.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+lcd_printf.o: ..\include\system\system_LPC17xx.h
+lcd_printf.o: ..\include\drivers\uart0.h
+lcd_printf.o: ..\include\drivers\uart1.h

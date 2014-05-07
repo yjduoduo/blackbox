@@ -1,0 +1,15 @@
+main.o: ..\src\main.c
+main.o: ..\include\includeall.h
+main.o: f:\Keil\ARM\RV31\Inc\stdio.h
+main.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+main.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+main.o: ..\include\type.h
+main.o: ..\include\system\LPC17xx.h
+main.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+main.o: f:\Keil\ARM\RV31\Inc\stdint.h
+main.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+main.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+main.o: ..\include\system\system_LPC17xx.h
+main.o: ..\include\common\lcd_printf.h
+main.o: ..\include\drivers\uart0.h
+main.o: ..\include\includeall.h

@@ -1,0 +1,15 @@
+uart0.o: ..\dirvers\serial\uart0.c
+uart0.o: ..\include\drivers\uart0.h
+uart0.o: ..\include\includeall.h
+uart0.o: f:\Keil\ARM\RV31\Inc\stdio.h
+uart0.o: f:\Keil\ARM\RV31\Inc\stdlib.h
+uart0.o: f:\Keil\ARM\RV31\Inc\stdarg.h
+uart0.o: ..\include\type.h
+uart0.o: ..\include\system\LPC17xx.h
+uart0.o: f:\Keil\ARM\CMSIS\Include\core_cm3.h
+uart0.o: f:\Keil\ARM\RV31\Inc\stdint.h
+uart0.o: f:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+uart0.o: f:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+uart0.o: ..\include\system\system_LPC17xx.h
+uart0.o: ..\include\common\lcd_printf.h
+uart0.o: ..\include\drivers\uart0.h

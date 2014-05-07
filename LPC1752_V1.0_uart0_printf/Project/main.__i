@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\include -I..\include\system -I..\include\drivers -I..\include\common -I f:\Keil\ARM\RV31\Inc -I f:\Keil\ARM\CMSIS\Include -I f:\Keil\ARM\Inc\NXP\LPC17xx -o "main.o" --omf_browse "main.crf" --depend "main.d" "..\src\main.c"
